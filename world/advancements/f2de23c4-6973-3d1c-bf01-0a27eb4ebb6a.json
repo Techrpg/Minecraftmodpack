@@ -370,8 +370,10 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2026-09-22 01:38:17 +0000",
+      "minecraft:spider": "2026-09-22 11:55:37 +0000",
       "minecraft:creeper": "2026-09-22 01:40:23 +0000",
       "minecraft:witch": "2026-09-22 01:50:03 +0000",
+      "minecraft:stray": "2026-09-22 11:55:45 +0000",
       "minecraft:zombie": "2026-09-22 01:02:05 +0000"
     },
     "done": false
@@ -637,6 +639,54 @@
   "mekanismtools:better_than_netherite": {
     "criteria": {
       "armor": "2026-09-22 02:40:32 +0000"
+    },
+    "done": true
+  },
+  "mekanism:steel_casing": {
+    "criteria": {
+      "steel_casing": "2026-09-22 11:46:27 +0000"
+    },
+    "done": true
+  },
+  "mekanism:digital_miner": {
+    "criteria": {
+      "digital_miner": "2026-09-22 12:30:49 +0000"
+    },
+    "done": true
+  },
+  "lootr:50loot": {
+    "criteria": {
+      "loot_stat": "2026-09-22 12:02:47 +0000"
+    },
+    "done": true
+  },
+  "mekanism:personal_storage": {
+    "criteria": {
+      "storage": "2026-09-22 12:27:29 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_rotten": {
+    "criteria": {
+      "requirement": "2026-09-22 11:56:01 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/craft_knife": {
+    "criteria": {
+      "iron_knife": "2026-09-22 12:02:42 +0000"
+    },
+    "done": true
+  },
+  "mekanism:logistical_sorter": {
+    "criteria": {
+      "logistical_sorter": "2026-09-22 12:24:27 +0000"
+    },
+    "done": true
+  },
+  "mekanism:teleportation_core": {
+    "criteria": {
+      "teleportation_core": "2026-09-22 12:29:52 +0000"
     },
     "done": true
   },
