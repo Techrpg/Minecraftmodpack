@@ -187,6 +187,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:river": "2026-09-20 03:08:38 +0000",
+      "minecraft:savanna": "2026-09-21 23:27:27 +0000",
       "minecraft:plains": "2026-09-20 03:16:13 +0000"
     },
     "done": false
@@ -516,9 +517,15 @@
     },
     "done": true
   },
-  "farmersdelight:main/get_rich_soil": {
+  "botanypots:husbandry/get_basic_pot": {
     "criteria": {
-      "get_rich_soil": "2026-09-20 17:55:27 +0000"
+      "get_botany_pot": "2026-09-20 17:28:53 +0000"
+    },
+    "done": true
+  },
+  "botanypots:husbandry/get_hopper_pot": {
+    "criteria": {
+      "get_hopper_pot": "2026-09-20 17:29:00 +0000"
     },
     "done": true
   },
@@ -528,15 +535,39 @@
     },
     "done": true
   },
-  "lootr:50loot": {
+  "minecraft:story/form_obsidian": {
     "criteria": {
-      "loot_stat": "2026-09-20 18:42:12 +0000"
+      "obsidian": "2026-09-20 17:37:56 +0000"
     },
     "done": true
   },
-  "simplyswords:runic_weapon": {
+  "apotheotic_additions:affix/simple_reforging_table": {
     "criteria": {
-      "requirement": "2026-09-20 18:46:55 +0000"
+      "material": "2026-09-20 17:39:11 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/socket": {
+    "criteria": {
+      "socket": "2026-09-20 17:49:38 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_rich_soil": {
+    "criteria": {
+      "get_rich_soil": "2026-09-20 17:55:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2026-09-20 18:16:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2026-09-20 18:16:46 +0000"
     },
     "done": true
   },
@@ -546,15 +577,9 @@
     },
     "done": true
   },
-  "minecraft:story/form_obsidian": {
+  "lootr:50loot": {
     "criteria": {
-      "obsidian": "2026-09-20 17:37:56 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/shoot_arrow": {
-    "criteria": {
-      "shot_arrow": "2026-09-20 18:16:46 +0000"
+      "loot_stat": "2026-09-20 18:42:12 +0000"
     },
     "done": true
   },
@@ -570,33 +595,15 @@
     },
     "done": true
   },
-  "botanypots:husbandry/get_basic_pot": {
+  "simplyswords:runic_weapon": {
     "criteria": {
-      "get_botany_pot": "2026-09-20 17:28:53 +0000"
+      "requirement": "2026-09-20 18:46:55 +0000"
     },
     "done": true
   },
-  "apotheotic_additions:affix/simple_reforging_table": {
+  "mowziesmobs:kill_umvuthi": {
     "criteria": {
-      "material": "2026-09-20 17:39:11 +0000"
-    },
-    "done": true
-  },
-  "botanypots:husbandry/get_hopper_pot": {
-    "criteria": {
-      "get_hopper_pot": "2026-09-20 17:29:00 +0000"
-    },
-    "done": true
-  },
-  "apotheosis:affix/socket": {
-    "criteria": {
-      "socket": "2026-09-20 17:49:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/ol_betsy": {
-    "criteria": {
-      "shot_crossbow": "2026-09-20 18:16:46 +0000"
+      "barako": "2026-09-21 23:29:30 +0000"
     },
     "done": true
   },
