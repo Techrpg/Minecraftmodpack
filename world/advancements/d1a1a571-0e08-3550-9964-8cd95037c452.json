@@ -160,16 +160,22 @@
     "criteria": {
       "woodland": "2026-09-22 00:58:45 +0000",
       "scrubland": "2026-09-21 23:50:27 +0000",
+      "erupting_inferno": "2026-09-22 23:12:33 +0000",
       "floodplain": "2026-09-22 13:00:14 +0000",
+      "lush_savanna": "2026-09-22 22:34:35 +0000",
       "old_growth_woodland": "2026-09-21 23:35:44 +0000",
+      "crystalline_chasm": "2026-09-22 23:14:56 +0000",
+      "withered_abyss": "2026-09-22 23:35:23 +0000",
       "orchard": "2026-09-22 02:23:31 +0000",
       "mediterranean_forest": "2026-09-22 00:52:19 +0000",
       "spider_nest": "2026-09-22 00:55:10 +0000",
       "dryland": "2026-09-22 02:34:39 +0000",
+      "lush_desert": "2026-09-22 22:40:19 +0000",
       "redwood_forest": "2026-09-22 02:26:20 +0000",
       "rocky_rainforest": "2026-09-22 12:58:19 +0000",
       "lavender_field": "2026-09-22 00:21:01 +0000",
       "prairie": "2026-09-21 23:50:44 +0000",
+      "undergrowth": "2026-09-22 23:16:09 +0000",
       "rainforest": "2026-09-22 12:58:01 +0000"
     },
     "done": false
@@ -201,10 +207,13 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:bamboo_jungle": "2026-09-22 22:35:00 +0000",
       "minecraft:beach": "2026-09-22 00:22:22 +0000",
+      "minecraft:sparse_jungle": "2026-09-22 22:39:34 +0000",
       "minecraft:river": "2026-09-21 23:52:33 +0000",
       "minecraft:dripstone_caves": "2026-09-22 00:52:47 +0000",
       "minecraft:desert": "2026-09-22 02:35:16 +0000",
+      "minecraft:jungle": "2026-09-22 22:35:50 +0000",
       "minecraft:savanna": "2026-09-22 00:48:17 +0000",
       "minecraft:plains": "2026-09-21 23:52:10 +0000"
     },
@@ -297,16 +306,20 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2026-09-22 00:49:14 +0000",
+      "minecraft:blaze": "2026-09-22 23:19:08 +0000",
       "minecraft:skeleton": "2026-09-22 00:12:48 +0000",
+      "minecraft:hoglin": "2026-09-22 23:35:14 +0000",
       "minecraft:spider": "2026-09-22 00:07:53 +0000",
       "minecraft:creeper": "2026-09-21 23:58:40 +0000",
       "quark:forgotten": "2026-09-22 00:30:17 +0000",
       "minecraft:phantom": "2026-09-22 00:04:31 +0000",
       "minecraft:witch": "2026-09-22 00:09:08 +0000",
+      "minecraft:wither_skeleton": "2026-09-22 23:17:52 +0000",
       "minecraft:husk": "2026-09-22 00:57:26 +0000",
       "minecraft:cave_spider": "2026-09-22 00:00:52 +0000",
       "minecraft:silverfish": "2026-09-22 13:03:08 +0000",
       "minecraft:stray": "2026-09-22 13:04:49 +0000",
+      "minecraft:enderman": "2026-09-22 23:36:00 +0000",
       "minecraft:zombie": "2026-09-21 23:59:03 +0000",
       "minecraft:zombie_villager": "2026-09-22 00:29:34 +0000"
     },
@@ -404,6 +417,7 @@
   },
   "mekanismadditions:hurt_by_babies": {
     "criteria": {
+      "baby_wither_skeleton": "2026-09-22 23:20:04 +0000",
       "baby_creeper": "2026-09-22 00:55:08 +0000",
       "baby_skeleton": "2026-09-22 00:14:27 +0000"
     },
@@ -442,7 +456,8 @@
   "dungeons_enhanced:ambitious_explorer": {
     "criteria": {
       "entered_hay_storage": "2026-09-22 02:25:16 +0000",
-      "entered_druid_circle": "2026-09-22 00:34:51 +0000"
+      "entered_druid_circle": "2026-09-22 00:34:51 +0000",
+      "entered_jungle_monument": "2026-09-22 22:35:51 +0000"
     },
     "done": false
   },
@@ -581,6 +596,109 @@
   "apotheosis:enchanting/bookshelf": {
     "criteria": {
       "bookshelf": "2026-09-22 12:35:46 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/crimson_mosquito": {
+    "criteria": {
+      "killed": "2026-09-22 23:35:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2026-09-22 23:23:57 +0000",
+      "minecraft:nether_wastes": "2026-09-22 23:08:34 +0000"
+    },
+    "done": false
+  },
+  "mekanismtools:loved_by_piglins": {
+    "criteria": {
+      "armor": "2026-09-22 22:42:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-09-22 23:08:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2026-09-22 23:20:09 +0000"
+    },
+    "done": true
+  },
+  "betterdeserttemples:temple_entry": {
+    "criteria": {
+      "in_better_desert_temple": "2026-09-22 22:40:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-09-22 23:08:34 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/straddler": {
+    "criteria": {
+      "killed_by": "2026-09-22 23:35:43 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/ink_root": {
+    "criteria": {
+      "requirement": "2026-09-22 22:47:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2026-09-22 23:20:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2026-09-22 23:14:05 +0000"
+    },
+    "done": true
+  },
+  "dungeons_enhanced:seven_world_wonders": {
+    "criteria": {
+      "entered_jungle_monument": "2026-09-22 22:35:51 +0000"
+    },
+    "done": false
+  },
+  "betterdeserttemples:temple_clear": {
+    "criteria": {
+      "pharaoh_killed": "2026-09-22 22:46:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2026-09-22 23:13:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2026-09-22 23:14:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "in_better_fortress": "2026-09-22 23:17:34 +0000"
+    },
+    "done": true
+  },
+  "dungeons_enhanced:ancient_civilizations": {
+    "criteria": {
+      "entered_jungle_monument": "2026-09-22 22:35:51 +0000"
     },
     "done": true
   },
