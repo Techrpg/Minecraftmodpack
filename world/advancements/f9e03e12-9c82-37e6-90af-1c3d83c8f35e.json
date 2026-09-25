@@ -160,7 +160,10 @@
     "criteria": {
       "woodland": "2026-09-21 23:46:27 +0000",
       "scrubland": "2026-09-21 23:44:45 +0000",
+      "erupting_inferno": "2026-09-24 23:46:32 +0000",
       "old_growth_woodland": "2026-09-21 23:35:47 +0000",
+      "mediterranean_forest": "2026-09-24 22:38:28 +0000",
+      "wasteland": "2026-09-24 22:39:31 +0000",
       "dune_beach": "2026-09-22 01:38:26 +0000",
       "prairie": "2026-09-21 23:54:46 +0000"
     },
@@ -170,7 +173,9 @@
     "criteria": {
       "minecraft:beach": "2026-09-22 01:52:54 +0000",
       "minecraft:river": "2026-09-21 23:39:04 +0000",
+      "minecraft:desert": "2026-09-24 22:39:36 +0000",
       "minecraft:ocean": "2026-09-22 01:36:44 +0000",
+      "minecraft:savanna": "2026-09-24 22:36:54 +0000",
       "minecraft:plains": "2026-09-21 23:57:01 +0000"
     },
     "done": false
@@ -274,7 +279,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "bread": "2026-09-21 23:56:44 +0000"
+      "bread": "2026-09-21 23:56:44 +0000",
+      "cookie": "2026-09-24 23:12:32 +0000"
     },
     "done": false
   },
@@ -343,7 +349,9 @@
       "minecraft:skeleton": "2026-09-22 01:44:42 +0000",
       "minecraft:spider": "2026-09-22 01:44:38 +0000",
       "minecraft:creeper": "2026-09-22 00:49:44 +0000",
+      "minecraft:phantom": "2026-09-24 23:14:14 +0000",
       "minecraft:witch": "2026-09-22 01:41:37 +0000",
+      "minecraft:shulker": "2026-09-24 22:57:24 +0000",
       "minecraft:cave_spider": "2026-09-22 01:49:53 +0000",
       "minecraft:enderman": "2026-09-22 01:57:43 +0000",
       "minecraft:zombie": "2026-09-22 00:35:07 +0000"
@@ -368,15 +376,21 @@
     },
     "done": true
   },
+  "lootr:10loot": {
+    "criteria": {
+      "loot_stat": "2026-09-22 01:44:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/deflect_arrow": {
     "criteria": {
       "deflected_projectile": "2026-09-22 01:44:39 +0000"
     },
     "done": true
   },
-  "lootr:10loot": {
+  "apotheosis:affix/rare_gem": {
     "criteria": {
-      "loot_stat": "2026-09-22 01:44:09 +0000"
+      "gem": "2026-09-22 01:46:48 +0000"
     },
     "done": true
   },
@@ -386,9 +400,171 @@
     },
     "done": true
   },
-  "apotheosis:affix/rare_gem": {
+  "mekanism:disassembler": {
     "criteria": {
-      "gem": "2026-09-22 01:46:48 +0000"
+      "atomic_disassembler": "2026-09-24 22:29:55 +0000"
+    },
+    "done": true
+  },
+  "mekanismtools:better_than_netherite": {
+    "criteria": {
+      "armor": "2026-09-24 22:31:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2026-09-24 22:31:57 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/epic": {
+    "criteria": {
+      "sword": "2026-09-24 22:31:57 +0000"
+    },
+    "done": true
+  },
+  "quark:get_forgotten_hat": {
+    "criteria": {
+      "get_forgotten_hat": "2026-09-24 22:31:57 +0000"
+    },
+    "done": true
+  },
+  "mekanismadditions:not_the_babies": {
+    "criteria": {
+      "baby_enderman": "2026-09-24 22:49:18 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:find_ruined_citadel": {
+    "criteria": {
+      "citadel": "2026-09-24 23:26:01 +0000"
+    },
+    "done": true
+  },
+  "lootr:1shulker": {
+    "criteria": {
+      "opened_shulker": "2026-09-24 23:30:44 +0000"
+    },
+    "done": true
+  },
+  "mekanismadditions:hurt_by_babies": {
+    "criteria": {
+      "baby_enderman": "2026-09-24 22:49:47 +0000"
+    },
+    "done": false
+  },
+  "cataclysm:kill_ender_golem": {
+    "criteria": {
+      "endergolem": "2026-09-24 23:29:50 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/cosmic_cod": {
+    "criteria": {
+      "capsid": "2026-09-24 23:10:58 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/enderiophage": {
+    "criteria": {
+      "killed": "2026-09-24 22:52:17 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/mythic": {
+    "criteria": {
+      "sword": "2026-09-24 23:14:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2026-09-24 23:43:34 +0000"
+    },
+    "done": false
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-09-24 23:43:34 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/capsid": {
+    "criteria": {
+      "capsid": "2026-09-24 22:52:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-09-24 23:43:34 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/mythic_gem": {
+    "criteria": {
+      "gem": "2026-09-24 22:47:00 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/boss": {
+    "criteria": {
+      "sword": "2026-09-24 23:14:14 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/ink_root": {
+    "criteria": {
+      "requirement": "2026-09-24 23:05:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2026-09-24 22:54:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2026-09-24 22:50:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2026-09-24 23:07:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold_betterstrongholds": "2026-09-24 22:46:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2026-09-24 22:47:32 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:warp_scroll": {
+    "criteria": {
+      "has_warp_scroll": "2026-09-24 23:26:33 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/craft_knife": {
+    "criteria": {
+      "diamond_knife": "2026-09-24 23:33:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2026-09-24 22:47:32 +0000"
     },
     "done": true
   },
